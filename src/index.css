@@ -1,0 +1,36 @@
+body{
+    background-color: cadetblue;
+    padding: 40px;
+}
+
+*{
+    font-family: 'Montserrat';
+}
+
+input{
+    color: grey;
+    font-size: 1.2em;        
+    width: 100%;
+    
+}
+
+.cardGrid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    align-content: center;    
+    border-radius: 6px;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.card p{
+    padding: 5px;
+}
+
+.card img{
+    max-height: 170px;
+}
